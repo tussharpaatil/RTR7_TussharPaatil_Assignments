@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\09-ControlFlow",
+    "\\09-ControlFlow\\05-ForLoop",
+    "\\09-ControlFlow\\05-ForLoop\\01-SimpleForLoop\\02-Decrementing",
+    "\\09-ControlFlow\\05-ForLoop\\01-SimpleForLoop\\02-Decrementing\\02-TwoIteratingVariables",
+    "\\09-ControlFlow\\05-ForLoop\\05-NestedForLoop",
+    "\\09-ControlFlow\\05-ForLoop\\05-NestedForLoop\\03-NestedForLoop_CheckerBoard"
+  ],
+  "SelectedNode": "\\09-ControlFlow\\05-ForLoop\\05-NestedForLoop\\03-NestedForLoop_CheckerBoard\\NestedForLoop_Checkerboard.c",
+  "PreviewInSolutionExplorer": false
+}
