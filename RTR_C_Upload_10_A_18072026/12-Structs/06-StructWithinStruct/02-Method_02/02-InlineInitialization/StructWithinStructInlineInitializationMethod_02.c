@@ -1,0 +1,38 @@
+// Program Name : StructWithinStructInlineInitializationMethod_02.c
+
+#include <stdio.h>
+
+typedef struct
+{
+	int x_axis;
+	int y_axis;
+} MyPoint;
+
+typedef	struct
+{
+	MyPoint point_A, point_B;
+} Rectangle;
+
+int main(void)
+{
+	// Variable Declarations
+	int l, b, a;
+	Rectangle rect = { {4, 5}, {6,7} };
+
+	l = rect.point_B.y_axis - rect.point_A.y_axis;
+	if (l < 0)
+		l = l * -1;
+
+	b = rect.point_B.x_axis - rect.point_A.x_axis;
+	if (b < 0)
+		b = b * -1;
+
+	a = l * b;
+
+	printf("\n=================================================================\n");
+	printf("Length Of Rectangle = %d\n\n", l);
+	printf("Breadth Of Rectangle = %d\n\n", b);
+	printf("Area Of Reangle = %d\n\n", a);
+
+	return (0);
+}
